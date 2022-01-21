@@ -1,0 +1,23 @@
+You are provided with this advance information to enable you to read, understand and action in your own time, and not under examination conditions. 
+This instruction sheet provides you with one data file for you to use in the examination:
+CS2B_Apr_21_Qu_3_Data.csv
+This data file needs to be loaded into R by first saving it onto the computer you are going to be using in the examination. Once you have completed this then you need to load the data file into R ready for use during the examination. 
+Further guidance on how to do this can be found in “A Guide to CS1 and CS2 Examinations” on the website. 
+ 
+The guide also provides details of the R packages that will be required for the 2021 CS2B examinations. 
+
+PLEASE NOTE that no prior knowledge of the copula, rpart and rpart.plot packages is required for the examination.
+To test that you have successfully loaded the required R Packages run the following code in order within R:
+
+###################################################### 
+#### (i) Open libraries  #############################
+######################################################
+
+library(copula)
+library(graphics)
+library(markovchain)
+library(rpart)
+library(rpart.plot)
+library(stats)
+library(survival)
+library(utils)
