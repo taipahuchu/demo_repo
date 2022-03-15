@@ -1,6 +1,6 @@
 install.packages("markovchain") # if not installed
 library(markovchain)
-
+ggg
 #part (i)
 markovchain = function(p,q,r){
   P = matrix(data = c(p,1-p,0,q,0,1-q,0,r,1-r), nrow=3, byrow=TRUE)
